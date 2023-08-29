@@ -7,7 +7,10 @@ import com.ykexc.springbootaop.exception.ApplicationExceptionEnum;
  */
 public enum ExceptionEnum implements ApplicationExceptionEnum {
 
-    IllegalParameter(5400, "不合法的参数")
+    IllegalParameter(5400, "不合法的参数"),
+    Unauthorized(4030, "未登录"),
+
+    Forbidden(4050, "禁止访问")
     ;
 
     final String msg;

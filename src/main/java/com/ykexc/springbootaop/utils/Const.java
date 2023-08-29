@@ -14,4 +14,8 @@ public class Const {
             "java.lang.Long"
     };
 
+    public static final String LOGIN = "login";
+
+    public static final String ADMIN = "admin";
+
 }
